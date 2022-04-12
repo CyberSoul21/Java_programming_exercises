@@ -32,6 +32,7 @@ public class eratostenes
       }
 
     }
+    
     public void criba_method()
     {
       int i = 1;

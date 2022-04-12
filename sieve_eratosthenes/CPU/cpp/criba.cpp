@@ -26,7 +26,10 @@ int main(int argc, char *argv[])
     cin>>n;
     eratostenes prms(n);
     prms.fill_array();
-    prms.print_array();
+    //prms.print_array();
+    prms.criba_method();
+    prms.count_primes();
+    cout<<"La cantidad de numeros primos hasta "<<n<<" son: "<<prms.get_counter()<<endl;
 
     
     
